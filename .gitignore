@@ -28,7 +28,7 @@ AutomationModule/*.iml
 # Folders and files
 .*
 ui/target
-ui/package-lock.json.
+ui/package-lock.json
 ui/.DS_Store
 ui/.tern-project
 ui/build/*
