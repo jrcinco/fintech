@@ -1,0 +1,128 @@
+@import "variables";
+//Available cursor pointers as CSS class
+$cursor-list: cell context-menu copy crosshair grab grabbing help move none not-allowed pointer progress wait;
+@each $current-cursor in $cursor-list {
+  .cursor--#{$current-cursor} {
+    cursor: $current-cursor !important;
+  }
+}
+
+//Buttons text color, button bg-color, background class color
+//Coming from $color-map->to CSS generic classes
+@each $name, $color in $color-map {
+  .fee-btn__text--#{$name} {
+    color: $color !important;
+  }
+
+  .text-color--#{$name} {
+    color: $color !important;
+  }
+
+  .#{$name}--text {
+    color: $color !important;
+  }
+
+  .fee-btn__block--#{$name} {
+    background-color: $color !important;;
+  }
+
+  .bg--#{$name} {
+    background: $color;
+  }
+
+  .bg--#{$name}-transparent {
+    background-color: rgba($color, 0.9);
+  }
+
+  .border-color--#{$name} {
+    border-color: $color;
+  }
+}
+
+//This should be removed when we migrate to Vuetify v^1.5.x
+$text-transform-list: none capitalize uppercase lowercase;
+@each $current-transform in $text-transform-list {
+  .text-#{$current-transform} {
+    text-transform: $current-transform !important;
+  }
+}
+
+//Text overflow options list
+$text-wrap-list: unset clip inherit initial revert ellipsis;
+@each $current-item in $text-wrap-list {
+  .text__overflow--#{$current-item} {
+    text-overflow: $current-item;
+  }
+}
+
+.text__white-space--nowrap {
+  white-space: nowrap;
+}
+
+//This should be removed when we migrate to Vuetify v^1.5.x
+.overflow-hidden {
+  overflow: hidden;
+}
+
+//This should be removed when we migrate to Vuetify v^1.5.x
+//Coming from $font-weight-map->to CSS generic classes
+@each $name, $weight in $font-weight-map {
+  .font-weight-#{$name} {
+    font-weight: $weight;
+  }
+}
+
+$border-style-list: none hidden dotted dashed solid double groove ridge inset outset initial inherit;
+@each $current-border in $border-style-list {
+  .border-style--#{$current-border} {
+    border-style: $current-border !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  .border__width--#{$i} {
+    border-width: 0px + $i;
+  }
+
+  .border__spacing--#{$i} {
+    border-collapse: separate;
+    border-spacing: #{$i}px;
+  }
+
+  .border__radius--#{$i} {
+    border-radius: #{$i}px;
+  }
+  .opacity--0\.#{$i} {
+    opacity: calc(#{$i}/10);
+  }
+}
+
+$align-grid-list: start end center;
+@each $current-align in $align-grid-list {
+  .align-self-#{$current-align} {
+    align-self: $current-align !important;
+  }
+  .align-items-#{$current-align} {
+    align-items: $current-align !important;
+  }
+  .align-content-#{$current-align} {
+    align-content: $current-align !important;
+  }
+  .justify-self-#{$current-align} {
+    justify-self: $current-align !important;
+  }
+  .justify-items-#{$current-align} {
+    justify-items: $current-align !important;
+  }
+  .justify-content-#{$current-align} {
+    justify-content: $current-align !important;
+  }
+  .text-align-#{$current-align} {
+    text-align: $current-align !important;
+  }
+}
+
+.border__radius--50 {
+  border-radius: 50%;
+}
+

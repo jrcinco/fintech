@@ -1,0 +1,72 @@
+$primary: #039BE5;
+$secondary: #0288D1;
+$accent: #4DB6AC;
+$error: #F44336;
+$warning: #FDD835;
+$info: #81D4FA;
+$success: #4CAF50;
+$white: #FFFFFF;
+$whitesmoke: #c9c8c8;
+$whitesmokeLight: #F5f5f5;
+$silver: #F7F7F9;
+$black: #000000;
+$skyblue: #00A3D9;
+$lightskyblue: #ECF8FC;
+$darkBlue: #232F3E;
+$blue: #2196F3;
+$gray: #717171;
+$grayOpaque: #8F8F8F;
+$darkGray: #646464;
+$borderBlue: #54C8E7;
+$darkYellow: #FEC200;
+$mediumYellow: #F3B324;
+$red: #E63131;
+$pink: #EF6A6E;
+$errorLabel: #E63131;
+$errorTitle: #FF0000;
+$green: #358E5D;
+
+$color-map: (
+        primary: #039BE5,
+        secondary: #0288D1,
+        accent:#4DB6AC,
+        error: #F44336,
+        warning: #FDD835,
+        info: #81D4FA,
+        success: #4CAF50,
+        white: #FFFFFF,
+        whitesmoke: #c9c8c8,
+        whitesmokeLight: #F5f5f5,
+        silver: #F7F7F9,
+        black: #000000,
+        skyblue: #00A3D9,
+        lightskyblue: #ECF8FC,
+        darkBlue: #232F3E,
+        blue: #2196F3,
+        gray: #717171,
+        grayOpaque: #8F8F8F,
+        borderBlue: #54C8E7,
+        darkYellow: #FEC200,
+        mediumYellow: #F3B324,
+        red: #E63131,
+        pink: #EF6A6E,
+        errorLabel: #E63131,
+        errorTitle: #FF0000,
+        green: #358E5D,
+);
+
+// @FONT-WEIGHT
+$font-weight-map: (
+        thin: 100,
+        light: 300,
+        regular: 400,
+        medium: 500,
+        bold: 700,
+        black: 900,
+);
+
+//Media queries sizes
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$l-width: 1280px;
+$xl-width: 1280px;

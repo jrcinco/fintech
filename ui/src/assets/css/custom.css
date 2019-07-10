@@ -1,0 +1,157 @@
+::selection {
+    color: #ffffff;
+    background: #32546B;
+}
+
+.form-width {
+    padding: 6px 0 0 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+.application .theme--light.v-label,
+.theme--light .v-label {
+    color: #fafafa;
+}
+
+.application .theme--light.v-icon,
+.theme--light .v-icon {
+    color: #fafafa;
+}
+
+.application .theme--light.v-text-field .v-input__slot:before,
+.theme--light .v-text-field .v-input__slot:before {
+    background-color: #ffffff;
+}
+
+.application .theme--light.v-text-field .v-input__slot:before,
+.theme--light .v-text-field .v-input__slot:before {
+    background-color: currentColor;
+}
+
+.application .theme--light.v-select__selections,
+.theme--light .v-select__selections {
+    color: #ffffff;
+}
+
+.application .theme--light.v-messages,
+.theme--light .v-messages {
+    color: #fafafa;
+}
+
+.application .theme--light.v-counter,
+.theme--light .v-counter {
+    color: #fafafa;
+}
+
+.application .theme--light.v-counter,
+.theme--light .v-counter {
+    color: currentColor;
+}
+
+.theme--light .v-text-field:not(.v-input--has-state) .v-input__slot:hover:before,
+.application .theme--light.v-text-field:not(.v-input--has-state) .v-input__slot:hover:before {
+    background-color: #ffffff;
+}
+
+.application .theme--light.v-input:not(.v-input--is-disabled) input,
+.application .theme--light.v-input:not(.v-input--is-disabled) textarea,
+.theme--light .v-input:not(.v-input--is-disabled) input,
+.theme--light .v-input:not(.v-input--is-disabled) textarea {
+    color: white;
+}
+
+.v-list__tile__title {
+    color: #6AAEDC;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    font-weight: 600 !important;
+    text-align: left;
+}
+
+.theme--light .list,
+.application .theme--light.list {
+    background: #fff;
+    color: #6AAEDC !important;
+}
+
+.list__tile__title {
+    color: rgba(0,0,0,0.87);
+    font-family: 'Open Sans';
+    font-size: 15.8px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+}
+
+.list__tile:hover {
+    background-color: #E1F3FC !important;
+}
+
+.v-messages__message{
+    height: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1264px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 1904px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .topbar {
+        height: 116px !important;
+    }
+    .topbar-logo {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topbar-logo {
+        width: 200px !important;
+    }
+    .topbar {
+        height: 96px !important;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .form-width {
+        padding: 6px 0 0 0 !important;
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .form-width {
+        padding: 6px 0 0 0 !important;
+        margin-left: 0 !important;
+        max-width: 91.67% !important;
+    }
+}

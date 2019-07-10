@@ -1,0 +1,10 @@
+[
+    {"loanAmountMin":1,"loanAmountMax":1000,"loanInterest":10,
+        "periods":[{"periodMin": 1,"periodMax": 12,"interestRate": "FLAT"}]},
+    {"loanAmountMin":1001,"loanAmountMax":100000,"loanInterest":5,
+        "periods":[
+            {"periodMin": 1,"periodMax": 12,"interestRate": "FLAT"},
+            {"periodMin": 13,"periodMax": 36,"interestRate": "DECLINING"}
+        ]
+    }
+]

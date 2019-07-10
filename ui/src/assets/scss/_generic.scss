@@ -1,0 +1,31 @@
+/*
+* SAME COLUMN OR ROW
+*/
+.same-col-row {
+  grid-template-areas: 'same-area';
+
+  > * {
+    grid-area: same-area;
+  }
+}
+
+.body-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.82px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+
+.subtitle-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15.8px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+}
+
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11.85px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
