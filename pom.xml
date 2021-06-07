@@ -22,7 +22,7 @@
                 
         <spring.framework.version>4.1.9.RELEASE</spring.framework.version>
         
-        <logback.version>1.1.6</logback.version>
+        <logback.version>1.2.0</logback.version>
     </properties>
     <build>
         <defaultGoal>install</defaultGoal>
